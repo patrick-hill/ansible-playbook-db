@@ -1,6 +1,6 @@
 ---
 
-- hosts: [Database]
+- hosts: all
   gather_facts: yes
 
   vars_files:
