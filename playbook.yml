@@ -1,0 +1,15 @@
+---
+
+- hosts: [dbs]
+  gather_facts: yes
+
+  vars_files:
+    - vars/common.yml
+    # - vars/java.yml
+    - vars/sql.yml
+
+  roles:
+    - patrick-hill.common
+    
+    - role: geerlingguy.mysql
+      become: yes

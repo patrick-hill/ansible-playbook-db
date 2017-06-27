@@ -1,0 +1,6 @@
+---
+
+common_centos_selinux_enabled: false
+common_centos_repo_epel_enabled: true
+common_centos_repo_rpmfusion_enabled: false
+common_centos_ipv6_enabled: false

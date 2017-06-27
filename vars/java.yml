@@ -1,0 +1,6 @@
+---
+
+java_version: 8
+java_subversion: 131
+java_set_javahome: true
+java_download_from_oracle: false

@@ -1,0 +1,11 @@
+---
+
+- name: patrick-hill.common
+  src:  https://github.com/patrick-hill/ansible-role-common
+
+- name: patrick-hill.firewall
+  src:  https://github.com/patrick-hill/ansible-role-firewall
+
+# - name: williamyeh.oracle-java
+
+- name: geerlingguy.mysql
