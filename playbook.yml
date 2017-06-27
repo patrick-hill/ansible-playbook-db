@@ -1,6 +1,6 @@
 ---
 
-- hosts: [dbs]
+- hosts: database
   gather_facts: yes
 
   vars_files:
@@ -10,6 +10,6 @@
 
   roles:
     - patrick-hill.common
-    
+
     - role: geerlingguy.mysql
       become: yes
