@@ -6,7 +6,7 @@
   vars_files:
     - vars/common.yml
     # - vars/java.yml
-    - vars/sql.yml
+    - vars/sql-vault.yml
 
   roles:
     - patrick-hill.common
